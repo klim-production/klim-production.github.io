@@ -1,0 +1,37 @@
+@font-face {
+    font-family:"Lobster" ;
+    src: url(fonts/Lobster-Regular.ttf);
+}
+p {
+    color: rgb(3, 42, 150);
+    font-family: "Lobster";
+}
+.film img
+{
+    height: 300px;;
+    object-fit: cover;
+    width: 300px;
+}
+.films {
+display: flex;
+background-color: rgb(250, 144, 6);
+}
+.film {
+    margin: 40px;;
+    padding: 40px;
+}
+.film a
+{
+    color: rgb(255, 21, 4);
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 5px 10px;
+}
+body
+{
+margin: 0;
+}
+.image
+{
+ width: 100%;   
+}
